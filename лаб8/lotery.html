@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body>
+
+<script>
+function jem1(obj)
+{ 
+document.getElementsByName("res").value;
+obj.res.value=Math.floor(Math.random() * 999999)+ 1;
+let m = obj.res.value;
+let s = Math.floor(m/1000);
+let d = m%1000
+if (Math.floor(m/100000) + (Math.floor(m / 10000) % 10) + ((Math.floor(m/1000))%100%10) == Math.floor((m%1000)/100) + Math.floor((m%100)/10) + m%10){
+let val31 = document.getElementById('night').checked;
+document.getElementById('str3').innerHTML="ВЫ ПОБЕДИЛИ"}
+   else {
+   let val31 = document.getElementById('night').checked;
+   document.getElementById('str3').innerHTML="УВЫ, ВЫ ПРОИГРАЛИ"}
+}
+</script>
+<div class="container">
+    <h1 class="title"><span>ЛОТЕРЕЯ</span></h1>
+<form name = "form1">
+   <div class="field">
+    <input type="text" id="night" name="res"><br>
+    <input type="button" value="ИГРАТЬ" onClick="jem1(form1)" class="my_button"><br>
+    <div id="str3" style="margin-top: 15px;"></div><br>
+ </div>
+</form>
+</div>
+
+</body>
+</html>

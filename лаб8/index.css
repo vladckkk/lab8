@@ -1,0 +1,35 @@
+.field {clear:both; text-align:center;}
+
+.my_button {
+	margin-top: 15px;
+    width: 175px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.title {
+    text-align: center;
+	font-size: 50px;
+	color: #fff;
+	padding-left: 10px;
+	line-height: 59px;
+}
+
+.title span {
+	display: inline;
+	background-color: #fff;
+	padding: 5px 10px;
+	color: #000;
+	font-size: 45px;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;   
+}
+
+.container {
+	max-width: 1200px;
+	margin: 300px auto 0;
+	border: 1px solid #000;
+	border-radius: 30px;
+	box-shadow: 2px 4px 5px 5px #000;
+}
